@@ -20,5 +20,10 @@ class MailController extends Controller
             $data['email'],
             $data['content']
         ));
+
+        Mail::to($data['email'])
+        ->send(new \App\Mail\SuccessMail(
+            $data['name'],
+        ));
     }
 }
