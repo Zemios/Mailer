@@ -4,6 +4,7 @@ namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
+use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
@@ -40,13 +41,16 @@ class ContactMail extends Mailable
                 'name' => $this->name,
                 'email' => $this->email,
                 'content' => $this->content,
-                // 'logo' => $this->embed(public_path('logo-email.png')),
             ]
         );
     }
 
     public function attachments(): array
     {
-        return [];
+        return [
+            Attachment::fromPath(public_path('images/logo-email.png'))
+                ->as('logo-email.png')
+                ->withMime('image/png')
+        ];
     }
 }
