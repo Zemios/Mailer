@@ -48,7 +48,7 @@
                   <td style="vertical-align:top;">
                     <h2 style="margin:0;color:#0d1216;font-size:32px;">Zemios</h2>
                     <p style="margin:4px 0 8px;color:#555;">Construimos el futuro</p>
-                    <p style="margin:4px 0;"><strong>📞</strong> <a href="tel:+34640845365" style="color:#2a6de8;text-decoration:none;">+34 640 84 53 65</a></p>
+                    <p style="margin:4px 0;"><strong>📞</strong> <a href="tel:+34640750918" style="color:#2a6de8;text-decoration:none;">+34 640 84 53 65</a></p>
                     <p style="margin:4px 0;"><strong>📧</strong> <a href="mailto:info@zemios.com" style="color:#2a6de8;text-decoration:none;">info@zemios.com</a></p>
                     <p style="margin:4px 0;"><strong>🌐</strong> <a href="https://zemios.com" style="color:#2a6de8;text-decoration:none;">www.zemios.com</a></p>
                     <div style="margin-top:10px;">

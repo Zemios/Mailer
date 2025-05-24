@@ -36,7 +36,7 @@
       
           <p>En breve, alguien de nuestro equipo se pondrá en contacto contigo para responder a tu consulta lo antes posible.</p>
       
-          <p>Mientras tanto, puedes seguirnos en nuestras redes sociales o escribirnos directamente por <strong><a href="https://wa.me/34640845365" style="text-decoration:none; color:inherit;"><strong>WhatsApp</strong></a></strong> si necesitas atención más inmediata.</p>
+          <p>Mientras tanto, puedes seguirnos en nuestras redes sociales o escribirnos directamente por <strong><a href="https://wa.me/34640750918" style="text-decoration:none; color:inherit;"><strong>WhatsApp</strong></a></strong> si necesitas atención más inmediata.</p>
       
           <p><strong><a href="https://www.instagram.com/zemios_company" style="text-decoration:none; color:inherit;">Instagram</a></strong> | <strong><a href="https://www.linkedin.com/company/zemios/" style="text-decoration:none; color:inherit;">LinkedIn</a></strong></p>
       
@@ -56,7 +56,7 @@
                   <td style="vertical-align:top;">
                     <h2 style="margin:0;color:#0d1216;font-size:32px;">Zemios</h2>
                     <p style="margin:4px 0 8px;color:#555;">Construimos el futuro</p>
-                    <p style="margin:4px 0;"><strong>📞</strong> <a href="tel:+34640845365" style="color:#2a6de8;text-decoration:none;">+34 640 84 53 65</a></p>
+                    <p style="margin:4px 0;"><strong>📞</strong> <a href="tel:+34640750918" style="color:#2a6de8;text-decoration:none;">+34 640 75 09 18</a></p>
                     <p style="margin:4px 0;"><strong>📧</strong> <a href="mailto:info@zemios.com" style="color:#2a6de8;text-decoration:none;">info@zemios.com</a></p>
                     <p style="margin:4px 0;"><strong>🌐</strong> <a href="https://zemios.com" style="color:#2a6de8;text-decoration:none;">www.zemios.com</a></p>
                     <div style="margin-top:10px;">
