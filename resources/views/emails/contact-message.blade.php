@@ -71,11 +71,10 @@
             <p><strong>Nombre:</strong> {{ $name }}</p>
             <p><strong>Email:</strong> {{ $email }}</p>
             <p><strong>Mensaje:</strong></p>
-            <p>{{ $message }}</p>
+            <p>{{ $content }}</p>
         </div>
 
         <div class="signature">
-            <img src="{{ $logo }}" alt="Logo Zemios" style="width: 80px; margin-bottom: 10px;">
             <div class="title">Zemios</div>
             <div class="subtitle">Construimos el futuro</div>
             <a href="tel:+34640845365">📞 +34 640 84 53 65</a>

@@ -11,14 +11,14 @@ class MailController extends Controller
         $data = $request->validate([
             "name" => "required|string|max:255",
             "email"=> "required|email|max:255",
-            "message" => "required|string|max:5000",
+            "content" => "required|string|max:5000",
         ]);
 
         Mail::to('zemios.official@gmail.com')
         ->send(new \App\Mail\ContactMail(
             $data['name'],
             $data['email'],
-            $data['message']
+            $data['content']
         ));
     }
 }

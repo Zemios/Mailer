@@ -2,21 +2,23 @@
 
 namespace App\Mail;
 
+use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
+use Illuminate\Queue\SerializesModels;
 
 class ContactMail extends Mailable
 {
-
+    use Queueable, SerializesModels;
     public $name;
     public $email;
-    public $message;
-    public function __construct($name, $email, $message)
+    public $content;
+    public function __construct($name, $email, $content)
     {
         $this->name = $name;
         $this->email = $email;
-        $this->message = $message;
+        $this->content = $content;
     }
 
     /**
@@ -37,8 +39,8 @@ class ContactMail extends Mailable
             with: [
                 'name' => $this->name,
                 'email' => $this->email,
-                'message' => $this->message,
-                'logo' => $this->embed(public_path('logo-email.png')),
+                'content' => $this->content,
+                // 'logo' => $this->embed(public_path('logo-email.png')),
             ]
         );
     }
